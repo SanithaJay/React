@@ -7,6 +7,8 @@ import { Events } from './Events';
 import { SetStatement } from './SetStatement';
 import { ForceUpdting } from './ForceUpdting';
 import { ToDoList } from './ToDoList';
+import { PropsProviding } from './PropsProviding';
+
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <ForceUpdting />
       <SetStatement/>
       <ToDoList/>
+      <PropsProviding/>
+     
       <Footer />
       <FooterCode />
     </div>

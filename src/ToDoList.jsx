@@ -30,4 +30,11 @@ export  class ToDoList extends React.Component{
             <h2>TODOLIST</h2>
             <input type="text" value={this.state.input} onChange={(e)=>this.setState({input:e.target.value})}/>
             <button onClick={this.addNames}>Add Names </button>
-            {this.state.nameList.map((names,index)=><li key={index
+            {this.state.nameList.map((names,index)=><li key={index}>{names}</li>)}
+            
+            </>
+        )
+       
+    }
+   
+}
