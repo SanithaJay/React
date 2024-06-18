@@ -8,10 +8,19 @@ import { SetStatement } from './SetStatement';
 import { ForceUpdting } from './ForceUpdting';
 import { ToDoList } from './ToDoList';
 import { PropsProviding } from './PropsProviding';
+import TestComponents from './TestComponents';
+import ParentComponents from './ParentComponents';
+
+
 
 
 
 function App() {
+let course="MERN ";
+//let course=123;invalid proptype
+
+
+
   return (
     <div >
       <HeaderCode />
@@ -22,7 +31,8 @@ function App() {
       <SetStatement/>
       <ToDoList/>
       <PropsProviding/>
-     
+    <TestComponents course={course}/>
+    <ParentComponents/>
       <Footer />
       <FooterCode />
     </div>
