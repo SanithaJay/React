@@ -27,11 +27,12 @@ export  class ToDoList extends React.Component{
         return(
 
             <>
-            <h2>TODOLIST</h2>
+            <h2>TODOLIST Using State</h2>
             <input type="text" value={this.state.input} onChange={(e)=>this.setState({input:e.target.value})}/>
             <button onClick={this.addNames}>Add Names </button>
+            <ul>
             {this.state.nameList.map((names,index)=><li key={index}>{names}</li>)}
-            
+            </ul>
             </>
         )
        

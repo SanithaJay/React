@@ -10,6 +10,10 @@ import { ToDoList } from './ToDoList';
 import { PropsProviding } from './PropsProviding';
 import TestComponents from './TestComponents';
 import ParentComponents from './ParentComponents';
+import { CountIncreasing  } from './CountIncreasing';
+import ReactLifeCycle from './ReactLifeCycle';
+import Hooks from './Hooks';
+import ToDoHooks from './ToDoHooks';
 
 
 
@@ -33,6 +37,10 @@ let course="MERN ";
       <PropsProviding/>
     <TestComponents course={course}/>
     <ParentComponents/>
+    <CountIncreasing/>
+    <ReactLifeCycle/>
+    <Hooks/>
+    <ToDoHooks/>
       <Footer />
       <FooterCode />
     </div>
